@@ -1,2 +1,22 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
+//
+//  iBlueView.swift
+//  iBlurView
+//
+//  Created by Benjamin Sage on 3/8/25.
+//
+
+import SwiftUI
+import UIKit
+
+public struct iBlurView: View {
+    public var radius: CGFloat = 20
+
+    public var body: some View {
+        BlurView()
+            .blur(radius: radius, opaque: true)
+    }
+}
+
+#Preview {
+    iBlurView()
+}
