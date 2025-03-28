@@ -11,6 +11,10 @@ import UIKit
 public struct iBlurView: View {
     public var radius: CGFloat = 20
 
+    public init(radius: CGFloat) {
+        self.radius = radius
+    }
+
     public var body: some View {
         BlurView()
             .blur(radius: radius, opaque: true)
@@ -18,5 +22,5 @@ public struct iBlurView: View {
 }
 
 #Preview {
-    iBlurView()
+    iBlurView(radius: 5)
 }
