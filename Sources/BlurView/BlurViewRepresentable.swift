@@ -1,13 +1,13 @@
 //
-//  SwiftUIView.swift
-//  iBlurView
+//  BlurViewRepresentable.swift
+//  UnionBlur
 //
 //  Created by Benjamin Sage on 3/8/25.
 //
 
 import SwiftUI
 
-struct BlurView: UIViewRepresentable {
+struct BlurViewRepresentable: UIViewRepresentable {
     func makeUIView(context: Context) -> UIVisualEffectView {
         let view = UIVisualEffectView()
         let blur = UIBlurEffect()

@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "iBlurView",
+    name: "union-blur",
     platforms: [
         .iOS(.v13),
         .macOS(.v10_15),
@@ -12,13 +12,13 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "iBlurView",
-            targets: ["iBlurView"]
+            name: "UnionBlur",
+            targets: ["UnionBlur"]
         ),
     ],
     targets: [
         .target(
-            name: "iBlurView"
+            name: "UnionBlur"
         ),
     ]
 )

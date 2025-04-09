@@ -1,6 +1,6 @@
 //
 //  iBlueView.swift
-//  iBlurView
+//  UnionBlur
 //
 //  Created by Benjamin Sage on 3/8/25.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 import UIKit
 
-public struct iBlurView: View {
+public struct BlurView: View {
     public var radius: CGFloat = 20
 
     public init(radius: CGFloat) {
@@ -16,11 +16,11 @@ public struct iBlurView: View {
     }
 
     public var body: some View {
-        BlurView()
+        BlurViewRepresentable()
             .blur(radius: radius, opaque: true)
     }
 }
 
 #Preview {
-    iBlurView(radius: 5)
+    BlurView(radius: 5)
 }
