@@ -1,8 +1,8 @@
 //
 //  BackdropView.swift
-//  UnionBlur
+//  union-blurs
 //
-//  Created by Benjamin Sage on 3/8/25.
+//  Created by Ben Sage on 3/8/25.
 //
 
 import SwiftUI
