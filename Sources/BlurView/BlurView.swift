@@ -9,14 +9,14 @@ import SwiftUI
 import UIKit
 
 public struct BlurView: View {
-    public var radius: CGFloat = 20
+    public var radius: CGFloat
 
-    public init(radius: CGFloat) {
+    public init(radius: CGFloat = 20) {
         self.radius = radius
     }
 
     public var body: some View {
-        BlurViewRepresentable()
+        BackdropView()
             .blur(radius: radius, opaque: true)
     }
 }

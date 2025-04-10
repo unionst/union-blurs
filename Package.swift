@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "union-blur",
+    name: "union-blurs",
     platforms: [
         .iOS(.v13),
         .macOS(.v10_15),
@@ -12,13 +12,13 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "UnionBlur",
-            targets: ["UnionBlur"]
+            name: "UnionBlurs",
+            targets: ["UnionBlurs"]
         ),
     ],
     targets: [
         .target(
-            name: "UnionBlur"
+            name: "UnionBlurs"
         ),
     ]
 )
