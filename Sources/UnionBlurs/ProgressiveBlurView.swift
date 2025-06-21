@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
-import CoreImage.CIFilterBuiltins
-import QuartzCore
 
 public struct ProgressiveBlurView: UIViewRepresentable {
     public var maxBlurRadius: CGFloat = 20
